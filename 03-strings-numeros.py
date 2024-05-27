@@ -33,3 +33,6 @@ print (9 ** 0.5)
 # Orden de operaciones
 print (3 * (2 + 1)) # 9
 
+print (type(30))
+print (type(30.5))
+
