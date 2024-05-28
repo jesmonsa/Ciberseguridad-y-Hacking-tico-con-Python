@@ -36,3 +36,14 @@ print (3 * (2 + 1)) # 9
 print (type(30))
 print (type(30.5))
 
+# f strings
+
+nombre = "Santiago"
+print (f"Mi nombre es {nombre}")
+
+# Concatenación
+print ("Hola " + nombre)
+
+print (f"Hola, {nombre} tienes {30} años")
+
+
