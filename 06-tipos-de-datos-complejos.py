@@ -12,6 +12,12 @@ numeros = [1, 2, 3, 4, 5]
 nombres = ['Juan', 'Ana', 'Luis', 'María']
 mezcla = [1, 'Juan', 2, 'Ana', 3, 'Luis']
 
+# Lista en una lista (lista anidada) 
+lista_anidada = [[1, 2, 3], ['Juan', 'Ana', 'Luis']]
+print(lista_anidada)  # [[1, 2, 3], ['Juan', 'Ana', 'Luis']]
+print(lista_anidada[0])  # [1, 2, 3]
+print(lista_anidada[1])  # ['Juan', 'Ana', 'Luis']
+
 # Acceder a los elementos de una lista
 # Los elementos de una lista se pueden acceder mediante un índice.
 # Los índices en Python comienzan en 0.
