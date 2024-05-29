@@ -39,3 +39,25 @@ print(diccionario_tareas["tarea3"]) # pendiente
 print(diccionario_tareas["tarea4"]) # terminada
 
 # Slicing
+
+# 7. Imprimir las primeras 3 tareas de la lista de tareas
+
+print(lista_tareas[0:3]) # ['tarea1', 'tarea2', 'tarea3']
+print(lista_tareas[:3]) # ['tarea1', 'tarea2', 'tarea3']
+print(lista_tareas[1:4]) # ['tarea2', 'tarea3', 'tarea4']
+print(lista_tareas[1:]) # ['tarea2', 'tarea3', 'tarea4', 'tarea5']
+
+# 8. Imprimir las últimas 3 tareas de la tupla de tareas
+
+print(tupla_tareas[-3:]) # ('tarea3', 'tarea4', 'tarea5')
+print(tupla_tareas[-2:]) # ('tarea4', 'tarea5')
+
+# 9. Imprimir las tareas pendientes del diccionario de tareas
+
+for tarea, estado in diccionario_tareas.items():
+    if estado == "pendiente":
+        print(tarea)
+
+# Stride
+
+
