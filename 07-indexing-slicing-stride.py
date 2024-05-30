@@ -60,4 +60,64 @@ for tarea, estado in diccionario_tareas.items():
 
 # Stride
 
+# 10. Imprimir las tareas de la lista de tareas de dos en dos
+
+print(lista_tareas[::2]) # ['tarea1', 'tarea3', 'tarea5']
+print(lista_tareas[1::2]) # ['tarea2', 'tarea4']
+
+# 11. Imprimir las tareas de la tupla de tareas de dos en dos
+
+print(tupla_tareas[::2]) # ('tarea1', 'tarea3', 'tarea5')
+print(tupla_tareas[1::2]) # ('tarea2', 'tarea4')
+
+# 12. Imprimir las tareas del diccionario de tareas de dos en dos
+
+for i, (tarea, estado) in enumerate(diccionario_tareas.items()): 
+    if i % 2 == 0:
+        print(tarea)
+
+# 13. Imprimir las tareas del diccionario de tareas de dos en dos
+
+for i, (tarea, estado) in enumerate(diccionario_tareas.items()):
+    if i % 2 != 0:
+        print(tarea)
+
+# 14. Imprimir las tareas del diccionario de tareas de dos en dos
+
+for i, (tarea, estado) in enumerate(diccionario_tareas.items()):
+    if i % 2 == 0:
+        print(estado)
+
+# 15. Imprimir las tareas del diccionario de tareas de dos en dos
+
+for i, (tarea, estado) in enumerate(diccionario_tareas.items()):
+    if i % 2 != 0:
+        print(estado)
+
+# 16. Imprimir las tareas del diccionario de tareas de dos en dos
+
+for i, (tarea, estado) in enumerate(diccionario_tareas.items()):
+    if i % 2 == 0:
+        print(tarea, estado)
+
+# 17. Imprimir las tareas del diccionario de tareas de dos en dos
+
+for i, (tarea, estado) in enumerate(diccionario_tareas.items()):
+    if i % 2 != 0:
+        print(tarea, estado)
+
+# Modificar tareas
+
+# 18. Modificar la primera tarea de la lista de tareas
+
+lista_tareas[0] = "tarea1 modificada"
+print(lista_tareas)
+
+# 19. Modificar la segunda tarea de la tupla de tareas
+
+tupla_tareas = list(tupla_tareas)
+tupla_tareas[1] = "tarea2 modificada"
+tupla_tareas = tuple(tupla_tareas)
+print(tupla_tareas)
+
 
