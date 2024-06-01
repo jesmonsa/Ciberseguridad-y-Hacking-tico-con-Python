@@ -120,4 +120,10 @@ tupla_tareas[1] = "tarea2 modificada"
 tupla_tareas = tuple(tupla_tareas)
 print(tupla_tareas)
 
+# 20. Modificar el estado de la tercera tarea del diccionario de tareas
+
+diccionario_tareas["tarea3"] = "terminada en caliente"
+print(diccionario_tareas)
+
+
 
