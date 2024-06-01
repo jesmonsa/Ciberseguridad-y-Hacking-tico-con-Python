@@ -162,4 +162,33 @@ print(numero_1) # 10.0
 numero_1 %= numero_2
 print(numero_1) # 0.0
 
+# Operadores de pertenencia
+# 23. in
+print(numero_1 in lista_1) # False
+print(string_1 in lista_1) # False
+print(lista_1 in lista_1) # True
+print(tupla_1 in lista_1) # False
+print(diccionario_1 in lista_1) # False
 
+# 24. not in
+print(numero_1 not in lista_1) # True
+print(string_1 not in lista_1) # True
+print(lista_1 not in lista_1) # False
+print(tupla_1 not in lista_1) # True
+print(diccionario_1 not in lista_1) # True
+
+# Operadores logicos
+# 25. and
+print(True and False) # False
+print(True and True) # True
+print(False and False) # False
+print(False and True) # False
+print(numero_1 > numero_2 and "valor1" in lista_1) # False
+
+
+# 26. or
+print(True or False) # True
+print(True or True) # True
+print(False or False) # False
+print(False or True) # True
+print(numero_1 < numero_2 or "valor1" in lista_1) # True
