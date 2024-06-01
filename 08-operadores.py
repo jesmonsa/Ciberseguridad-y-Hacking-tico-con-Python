@@ -108,7 +108,58 @@ print(numero_1 <= numero_2) # False
 # print(tupla_1 <= tupla_2) # TypeError: '<=' not supported between instances of 'tuple' and 'tuple'
 # print(diccionario_1 <= diccionario_2) # TypeError: '<=' not supported between instances of 'dict' and 'dict'
 
-# Operadores de comparación
-# 13. Y
+# Operadores lógicos
+# 13. and
+print(numero_1 > numero_2 and numero_1 < numero_2) # False
+# print(string_1 and string_2) # Texto2 
+# print(lista_1 and lista_2) # ['valor4', 'valor5', 'valor6']
+# print(tupla_1 and tupla_2) # ('valor4', 'valor5', 'valor6')
+# print(diccionario_1 and diccionario_2) # {'clave4': 'valor4', 'clave5': 'valor5', 'clave6': 'valor6'}
+
+# 14. or
+print(numero_1 > numero_2 or numero_1 < numero_2) # True
+# print(string_1 or string_2) # Texto1
+# print(lista_1 or lista_2) # ['valor1', 'valor2', 'valor3']
+# print(tupla_1 or tupla_2) # ('valor1', 'valor2', 'valor3')
+# print(diccionario_1 or diccionario_2) # {'clave1': 'valor1', 'clave2': 'valor2', 'clave3': 'valor3'}
+
+# 15. not
+print(not numero_1 > numero_2) # False
+# print(not string_1) # False
+# print(not lista_1) # False
+# print(not tupla_1) # False
+# print(not diccionario_1) # False
+
+# Operadores de identidad
+# 16. is
+print(numero_1 is numero_2) # False
+print(string_1 is string_2) # False
+print(lista_1 is lista_2) # False
+print(tupla_1 is tupla_2) # False
+print(diccionario_1 is diccionario_2) # False
+
+# Operadores de asignación
+
+# 17. Asignación
+
+# 18. Suma y asignación
+numero_1 += numero_2
+print(numero_1) # 15
+
+# 19. Resta y asignación
+numero_1 -= numero_2
+print(numero_1) # 10
+
+# 20. Multiplicación y asignación
+numero_1 *= numero_2
+print(numero_1) # 50
+
+# 21. División y asignación
+numero_1 /= numero_2
+print(numero_1) # 10.0
+
+# 22. Módulo y asignación
+numero_1 %= numero_2
+print(numero_1) # 0.0
 
 
