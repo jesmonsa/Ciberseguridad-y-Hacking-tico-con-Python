@@ -192,3 +192,25 @@ print(True or True) # True
 print(False or False) # False
 print(False or True) # True
 print(numero_1 < numero_2 or "valor1" in lista_1) # True
+
+# 27. not
+print(not True) # False
+print(not False) # True
+print(not numero_1 > numero_2) # True
+print(not "valor1" in lista_1) # False
+print(not numero_1 < numero_2 or "valor1" in lista_1) # False
+
+# Operadores de identidad
+# 28. is
+print(type(numero_1) is int) # True
+print(type(string_1) is str) # True
+print(type(lista_1) is list) # True
+print(type(tupla_1) is tuple) # True
+print(type(diccionario_1) is dict) # True
+
+# 29. is not
+print(type(numero_1) is not int) # False
+print(type(string_1) is not str) # False
+print(type(lista_1) is not list) # False
+print(type(tupla_1) is not tuple) # False
+print(type(diccionario_1) is not dict) # False
