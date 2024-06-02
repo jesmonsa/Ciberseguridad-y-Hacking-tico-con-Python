@@ -41,4 +41,31 @@ while num < 10:
 while num > 0:
     num -= 1
     print(num)
-   
+
+# Bucle infinito
+# while True:
+#     print("Esto es un bucle infinito")
+#     break
+
+# Bucle infinito con condición de salida
+while True:
+    print("Esto es un bucle infinito")
+    break
+
+# Bucle infinito con condición de salida
+while True:
+    print("Esto es un bucle infinito")
+    if num == 5:
+        break
+    num += 1
+
+# continue
+for i in range(10): 
+    if i == 5:
+        continue
+    print(i)
+
+
+
+
+
