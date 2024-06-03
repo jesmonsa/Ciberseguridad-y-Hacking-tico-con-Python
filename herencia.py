@@ -32,7 +32,6 @@ class Coche():
         else:
             print("No se puede retroceder en el cuentakilómetros.")
 
-
 coche = Coche("Seat Ibiza", 90, 5)
 coche.especificaciones()
 coche1 = Coche("Mercedes Clase A", 150, 7)
