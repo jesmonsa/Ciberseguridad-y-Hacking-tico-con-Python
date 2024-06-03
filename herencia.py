@@ -53,3 +53,13 @@ print(lista)
 
 lista.reverse()
 print(lista)
+
+dic = {"a": 1, "b": 2, "c": 3}
+print(dic)
+print(dir(dic))
+print(dic.keys())
+print(dic.values())
+print(dic.items())
+
+dic.pop("a")
+print(dic)
