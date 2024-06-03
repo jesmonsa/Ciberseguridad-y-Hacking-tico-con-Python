@@ -61,5 +61,9 @@ print(dic.keys())
 print(dic.values())
 print(dic.items())
 
+for clave, valor in dic.items():
+    print(clave, valor)
+    
+
 dic.pop("a")
 print(dic)
