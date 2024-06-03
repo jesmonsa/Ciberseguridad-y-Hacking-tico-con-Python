@@ -42,6 +42,14 @@ coche2.especificaciones()
 # Asignamos valores a los atributos de instancia
 
 coche1.actualizar_kilometros(2000)
-coche1.actualizar_kilometros(1000)
 
 coche1.especificaciones()
+
+print(dir(coche1))
+
+lista = [1, 2, 3, 4, 5]
+print(dir(lista))
+print(lista)
+
+lista.reverse()
+print(lista)
