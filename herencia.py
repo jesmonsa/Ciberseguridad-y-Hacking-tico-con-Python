@@ -63,7 +63,25 @@ print(dic.items())
 
 for clave, valor in dic.items():
     print(clave, valor)
-    
+
 
 dic.pop("a")
 print(dic)
+
+# Herencia
+class CocheElectrico(Coche):  # Asumiendo que Coche es la clase padre
+    def __init__(self, modelo, potencia, consumo, autonomia):
+        super().__init__(modelo, potencia, consumo)
+        self.autonomia = autonomia
+
+    def especificaciones(self):
+        """Muestra las especificaciones del coche eléctrico."""
+        print("Modelo:", self.modelo,
+              f"\nPotencia: {self.potencia} cv",
+              f"\nConsumo: {self.consumo} kWh/100km",
+              f"\nAutonomía: {self.autonomia} km")
+
+coche_electrico = CocheElectrico("Tesla Model S", 500, 0, 500)
+coche_electrico.especificaciones()
+
+
